@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://da0tukvqh2jro"
+path="res://.godot/imported/Timothy Seals - Chasing Voids (Unreal Tournament 4 CTF-BigRock).mp3-a34eabee1b441af2c5edfc2660bc50b1.mp3str"
+
+[deps]
+
+source_file="res://Timothy Seals - Chasing Voids (Unreal Tournament 4 CTF-BigRock).mp3"
+dest_files=["res://.godot/imported/Timothy Seals - Chasing Voids (Unreal Tournament 4 CTF-BigRock).mp3-a34eabee1b441af2c5edfc2660bc50b1.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

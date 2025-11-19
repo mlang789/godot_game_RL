@@ -1,0 +1,19 @@
+[gd_scene load_steps=4 format=3 uid="uid://b0llc66n2hx6k"]
+
+[ext_resource type="Script" uid="uid://c8aml1eacgj0p" path="res://restart_block.gd" id="1_efs0b"]
+[ext_resource type="Texture2D" uid="uid://te2cfwkq8r3o" path="res://playagain.jpg" id="2_h6tyc"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_b4diy"]
+size = Vector2(92.5, 68)
+
+[node name="RestartBlock" type="Area2D"]
+script = ExtResource("1_efs0b")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+position = Vector2(363.875, 266.125)
+scale = Vector2(0.335455, 0.372951)
+texture = ExtResource("2_h6tyc")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(363.75, 266)
+shape = SubResource("RectangleShape2D_b4diy")

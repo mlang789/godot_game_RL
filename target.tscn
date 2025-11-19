@@ -1,0 +1,27 @@
+[gd_scene load_steps=5 format=3 uid="uid://b4s3l8idxcmsx"]
+
+[ext_resource type="Script" uid="uid://c6oen2hywnk7b" path="res://target.gd" id="1_e1yvt"]
+[ext_resource type="Texture2D" uid="uid://ctyp3pojh5otn" path="res://targeted.png" id="2_5ebp1"]
+[ext_resource type="AudioStream" uid="uid://brsymortqjsd5" path="res://glass-bottle-breaking-351297.mp3" id="3_5ebp1"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_uqips"]
+size = Vector2(54, 51.5)
+
+[node name="Target" type="Area2D"]
+script = ExtResource("1_e1yvt")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+position = Vector2(336.875, 418.625)
+scale = Vector2(0.105957, 0.100098)
+texture = ExtResource("2_5ebp1")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(337, 418.75)
+shape = SubResource("RectangleShape2D_uqips")
+
+[node name="BreakSound" type="AudioStreamPlayer2D" parent="."]
+stream = ExtResource("3_5ebp1")
+volume_db = -16.714
+autoplay = true
+
+[connection signal="body_entered" from="." to="." method="_on_body_entered"]

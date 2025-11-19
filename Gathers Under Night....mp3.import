@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://dbdga7j7qmtm1"
+path="res://.godot/imported/Gathers Under Night....mp3-962dd0750a5bb23826201f613c887e47.mp3str"
+
+[deps]
+
+source_file="res://Gathers Under Night....mp3"
+dest_files=["res://.godot/imported/Gathers Under Night....mp3-962dd0750a5bb23826201f613c887e47.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4
