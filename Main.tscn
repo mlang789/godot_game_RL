@@ -1,6 +1,6 @@
 [gd_scene load_steps=44 format=3 uid="uid://crallne5g5dek"]
 
-[ext_resource type="Script" uid="uid://drmrlmtc1g1kt" path="res://player.gd" id="1_ig7tw"]
+[ext_resource type="Script" uid="uid://deuriw6l5onmu" path="res://player.gd" id="1_ig7tw"]
 [ext_resource type="Script" uid="uid://cd2c0lrhye0ow" path="res://main.gd" id="1_lquwl"]
 [ext_resource type="Texture2D" uid="uid://dvur3775y2x6a" path="res://Char_3.png" id="2_0xm2m"]
 [ext_resource type="Texture2D" uid="uid://eq6xfc21v10i" path="res://Going+Merry+2.jpg" id="2_c2ibq"]
